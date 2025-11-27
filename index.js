@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 
 // RUTA /ulsa
 app.get("/ulsa", (req, res) => {
-  const mision = "La misión de la ULSA es formar profesionales íntegros.";
+  const mision = "La misión de la ULSA Chihuahua es formar integralmente a personas inspiradas en el carisma lasallista y la fe cristiana, para que contribuyan a una sociedad más justa, solidaria y sostenible. Esto lo logra a través de su educación profesional, el desarrollo de competencias, el fomento de valores, la inserción laboral y el cuidado de la Casa Común.";
   res.send(mision);
 });
 
