@@ -1,0 +1,4 @@
+npm-debug.log
+.vercel
+.env
+node_modules/
