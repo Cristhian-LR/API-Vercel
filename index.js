@@ -3,7 +3,7 @@ const app = express();
 
 // RUTA /
 app.get("/", (req, res) => {
-  res.send("Integrantes: Adri, Nombre 2, Nombre 3");
+  res.send("Integrantes: Cristhian, Sebastián");
 });
 
 // RUTA /ulsa
